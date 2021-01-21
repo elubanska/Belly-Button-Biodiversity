@@ -1,10 +1,5 @@
+//import json sample data
 
-
-d3.json("samples.json").then((incomingData)=>{
-    console.log(incomingData)
+d3.json("../../samples.json", function(data) {
+    console.log(data);
 });
-
-
-//var tempData = d3.json("../../samples.json", function(data) {
-//    console.log(data);
-//});
