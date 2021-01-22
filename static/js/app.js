@@ -61,6 +61,11 @@ function createChart(sampleid){
                 colorscale: "Earth"
             }
         }];
-        Plotly.newPlot("bubble", bubbledata);
+        var bubbleLayout = {
+            title: 'Bacteria Cultures Per Sample',
+            xaxis: {title: 'OTU ID'},
+            hovermode: "closest"
+          };
+        Plotly.newPlot("bubble", bubbledata, bubbleLayout);
 });
 }
