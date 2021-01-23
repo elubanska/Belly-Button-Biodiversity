@@ -107,15 +107,15 @@ function createChart(sampleid){
                     //borderwidth: 2,
                     //bordercolor: "gray",
                     steps: [
-                      { range: [0, 1], color: "cyan" },
-                      { range: [1, 2], color: "cyan" },
-                      { range: [2, 3], color: "cyan" },
-                      { range: [3, 4], color: "cyan" },
-                      { range: [4, 5], color: "cyan" },
-                      { range: [5, 6], color: "cyan" },
-                      { range: [6, 7], color: "cyan" },
-                      { range: [7, 8], color: "cyan" },
-                      { range: [8, 9], color: "royalblue" }
+                      { range: [0, 1], color: "#E1F5FE" },
+                      { range: [1, 2], color: "#B3E5FC" },
+                      { range: [2, 3], color: "#81d4fa" },
+                      { range: [3, 4], color: "#4fc3f7" },
+                      { range: [4, 5], color: "#29b6f6" },
+                      { range: [5, 6], color: "#03a9f4" },
+                      { range: [6, 7], color: "#039be5" },
+                      { range: [7, 8], color: "#0277bd" },
+                      { range: [8, 9], color: "#01579b" }
                     ]
                 }
             }
