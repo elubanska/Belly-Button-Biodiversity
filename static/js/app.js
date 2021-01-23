@@ -69,7 +69,7 @@ function createChart(sampleid){
             }
         }];
         var bubbleLayout = {
-            title: 'Bacteria Cultures Per Sample',
+            title: '<b>Bacteria Cultures Per Sample</b>',
             xaxis: {title: 'OTU ID'},
             hovermode: "closest"
           };
@@ -86,7 +86,7 @@ function createChart(sampleid){
             hovertext: lables
         }];
         var barLayout = {
-            title: 'Top 10 microbial species found',
+            title: '<b>Top 10 microbial species found</b>',
             xaxis: {title: 'SAMPLE'}
         };
         //Plot Bar chart
@@ -95,7 +95,7 @@ function createChart(sampleid){
         var gaugeData = [{
                 
                 value: wfreq,
-                title: { text: "Belly Button Washing Frequency<br>Scrubs per Week"},
+                title: { text: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week"},
                                                 
                 type: "indicator",
                 mode: "gauge+number",
