@@ -95,7 +95,7 @@ function createChart(sampleid){
         var gaugeData = [{
                 
                 value: wfreq,
-                title: { text: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week"},
+                title: { text: "Belly Button Washing Frequency<br>Scrubs per Week"},
                                                 
                 type: "indicator",
                 mode: "gauge+number",
