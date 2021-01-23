@@ -95,22 +95,24 @@ function createChart(sampleid){
         var gaugeData = [{
                 
                 value: wfreq,
-                title: { text: "Belly Button Washing Frequency"},
-                
-                subtitle: { text: "Scrubs per Week" },
+                title: { text: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week"},
+                                                
                 type: "indicator",
                 mode: "gauge+number",
+
                 gauge: {
-                    axis: { range: [0, 9], borderwidth: 0, visible: false },
-                    
-            
+                    axis: { 
+                        range: [0, 9], 
+                        tickvals: [0,1,2,3,4,5,6,7,8,9],
+                        ticktext: ["0","1","2","3","4","5","6","7","8","9"],
+                    },
+                  
                     bar: { color: "darkblue" },
-                    //bgcolor: "white",
-                    //borderwidth: 2,
-                    //bordercolor: "gray",
+                    borderwidth: 0,
+                    //bordercolor: "white",
                     
                     steps: [
-                      { range: [0, 1], color: "#E1F5FE" },
+                      { range: [0, 1], color: "#E1F5FE", text:"0-1",  textposition: "inside" },
                       { range: [1, 2], color: "#B3E5FC" },
                       { range: [2, 3], color: "#81d4fa" },
                       { range: [3, 4], color: "#4fc3f7" },
@@ -127,9 +129,6 @@ function createChart(sampleid){
           var gaugeLayout = {
             width: 600,
             height: 500,
-            //margin: { t: 0, b: 0 },
-            //paper_bgcolor: "lavender",
-            //font: { color: "darkblue", family: "Arial" }
             
           };
           
