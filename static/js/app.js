@@ -101,11 +101,14 @@ function createChart(sampleid){
                 type: "indicator",
                 mode: "gauge+number",
                 gauge: {
-                    axis: { range: [0, 9], borderwidth: 0 },
+                    axis: { range: [0, 9], borderwidth: 0, visible: false },
+                    
+            
                     bar: { color: "darkblue" },
                     //bgcolor: "white",
                     //borderwidth: 2,
                     //bordercolor: "gray",
+                    
                     steps: [
                       { range: [0, 1], color: "#E1F5FE" },
                       { range: [1, 2], color: "#B3E5FC" },
@@ -123,10 +126,11 @@ function createChart(sampleid){
           
           var gaugeLayout = {
             width: 600,
-            height: 500
+            height: 500,
             //margin: { t: 0, b: 0 },
             //paper_bgcolor: "lavender",
             //font: { color: "darkblue", family: "Arial" }
+            
           };
           
           Plotly.newPlot('gauge', gaugeData, gaugeLayout);
