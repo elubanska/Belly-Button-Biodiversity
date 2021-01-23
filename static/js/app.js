@@ -65,7 +65,7 @@ function createChart(sampleid){
             marker: {
                 size: samples,
                 color: otuid,
-                colorscale: "Earth"
+                colorscale: "Blues"
             }
         }];
         var bubbleLayout = {
