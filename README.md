@@ -8,6 +8,9 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 https://elubanska.github.io/Belly-Button-Biodiversity/
 
+## Technology used
+html/CSS/Bootstrap/Javascript/Plotly
+
 
 ### About the Data
 
