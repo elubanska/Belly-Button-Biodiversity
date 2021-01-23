@@ -99,7 +99,7 @@ function createChart(sampleid){
                 
                 subtitle: { text: "Scrubs per Week" },
                 type: "indicator",
-                mode: "gauge",
+                mode: "gauge+number",
                 gauge: {
                     axis: { range: [0, 9], borderwidth: 0 },
                     bar: { color: "darkblue" },
